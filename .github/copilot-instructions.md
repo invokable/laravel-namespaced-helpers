@@ -17,8 +17,8 @@ It helps avoid global `env()` conflicts and restores convenient job dispatching 
 - `DispatchNow` trait: Adds `dispatchNow()` static method to jobs.
 
 **Requirements:**
-- PHP >= 8.2
-- Laravel >= 11.0
+- PHP >= 8.3
+- Laravel >= 12.0
 
 ---
 
