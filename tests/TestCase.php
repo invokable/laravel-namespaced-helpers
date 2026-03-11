@@ -2,6 +2,8 @@
 
 namespace Tests;
 
+use Illuminate\Foundation\Application;
+
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app): array
@@ -21,7 +23,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     /**
      * Define environment setup.
      *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param  Application  $app
      */
     protected function defineEnvironment($app): void
     {
